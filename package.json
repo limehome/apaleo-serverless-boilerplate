@@ -1,7 +1,7 @@
 {
   "name": "apaleo-node-serverless-boilerplate",
   "version": "1.0.0",
-  "description": "Apaleo NodeJS serverless boilerplace",
+  "description": "Apaleo NodeJS serverless boilerplate",
   "main": "handler.js",
   "scripts": {
     "build": "tsc",

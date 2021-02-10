@@ -11,13 +11,9 @@ export const handler: APIGatewayProxyHandler = async (event) => {
   const reservation = await apaleoClientService.getReservation('XYZ-123');
   return {
     statusCode: 200,
-    body: JSON.stringify(
-      {
-        message: 'Your function executed successfully!',
-        data: reservation,
-      },
-      null,
-      2,
-    ),
+    body: JSON.stringify({
+      message: 'Your function executed successfully!',
+      data: reservation,
+    }),
   };
 };

@@ -4,11 +4,9 @@ A starter kit for a serverless apaleo client gently offer by [limehome-engineeri
 
 ### Quickstart
 
-```
 1. Run `npm install`
-2. Create a _.env_ file based on _.env.example_
-3. Run `npm run local` 
-```
+1. Create an `.env` file based on `.env.example`
+1. Run `npm run local`
 
 ### Contribution
 
