@@ -1,0 +1,6 @@
+/.build
+/dist
+/serverless.ts
+/webpack.config.js
+/node_modules
+/src/generated
