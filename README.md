@@ -2,11 +2,25 @@
 
 A starter kit for a serverless apaleo client gently offer by [limehome-engineering](https://medium.com/limehome-engineering) 🙌 ✌️.
 
+
+### Serverless Setup via NPM
+
+Note: If you don’t already have Node on your machine, you’ll need to install it first. We suggest using the latest LTS version of NodeJS.
+
+Install the [serverless](https://www.serverless.com/framework/docs/getting-started/) CLI:
+
+1. npm install serverless -g
+
 ### Quickstart
 
 1. Run `npm install`
-1. Create an `.env` file based on `.env.example`
-1. Run `npm run local`
+2. Create an `.env` file based on `.env.example`
+3. Run `npm run local`
+
+## Deploy on AWS
+
+1. Read about [serverless deploying](https://www.serverless.com/framework/docs/providers/aws/guide/deploying/)
+2. Run `npm run serverless -- deploy --stage={stage to deploy for}` to deploy on AWS
 
 ### Contribution
 

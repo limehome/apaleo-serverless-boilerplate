@@ -1,5 +1,5 @@
 {
-  "name": "apaleo-node-serverless-boilerplate",
+  "name": "apaleo-serverless-boilerplate",
   "version": "1.0.0",
   "description": "Apaleo NodeJS serverless boilerplate",
   "main": "handler.js",
